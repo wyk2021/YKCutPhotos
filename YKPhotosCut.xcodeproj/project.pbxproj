@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173B181C1E0234C800800300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B181B1E0234C800800300 /* main.m */; };
+		173B181F1E0234C800800300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B181E1E0234C800800300 /* AppDelegate.m */; };
+		173B18251E0234C800800300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B18231E0234C800800300 /* Main.storyboard */; };
+		173B18271E0234C800800300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173B18261E0234C800800300 /* Assets.xcassets */; };
+		173B182A1E0234C800800300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B18281E0234C800800300 /* LaunchScreen.storyboard */; };
+		173B18351E0234C900800300 /* YKPhotosCutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B18341E0234C900800300 /* YKPhotosCutTests.m */; };
+		173B18401E0234C900800300 /* YKPhotosCutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B183F1E0234C900800300 /* YKPhotosCutUITests.m */; };
+		173B18571E02357700800300 /* YKPhotoCutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B18501E02357700800300 /* YKPhotoCutController.m */; };
+		173B18581E02357700800300 /* YKCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B18531E02357700800300 /* YKCutView.m */; };
+		173B18591E02357700800300 /* YKPhotosCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B18551E02357700800300 /* YKPhotosCutView.m */; };
+		173B185A1E02357700800300 /* YKPhotosCutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173B18561E02357700800300 /* YKPhotosCutView.xib */; };
+		17E180B61E026BF400B47B65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E180B41E026BF300B47B65 /* ViewController.m */; };
+		17E180B71E026BF400B47B65 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E180B51E026BF400B47B65 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173B18311E0234C900800300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173B180F1E0234C800800300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173B18161E0234C800800300;
+			remoteInfo = YKPhotosCut;
+		};
+		173B183C1E0234C900800300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173B180F1E0234C800800300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173B18161E0234C800800300;
+			remoteInfo = YKPhotosCut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173B18171E0234C800800300 /* YKPhotosCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKPhotosCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		173B181B1E0234C800800300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		173B181D1E0234C800800300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		173B181E1E0234C800800300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		173B18241E0234C800800300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173B18261E0234C800800300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		173B18291E0234C800800300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173B182B1E0234C800800300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173B18301E0234C900800300 /* YKPhotosCutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPhotosCutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173B18341E0234C900800300 /* YKPhotosCutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPhotosCutTests.m; sourceTree = "<group>"; };
+		173B18361E0234C900800300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173B183B1E0234C900800300 /* YKPhotosCutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPhotosCutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173B183F1E0234C900800300 /* YKPhotosCutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPhotosCutUITests.m; sourceTree = "<group>"; };
+		173B18411E0234C900800300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173B184F1E02357700800300 /* YKPhotoCutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKPhotoCutController.h; sourceTree = "<group>"; };
+		173B18501E02357700800300 /* YKPhotoCutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKPhotoCutController.m; sourceTree = "<group>"; };
+		173B18521E02357700800300 /* YKCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCutView.h; sourceTree = "<group>"; };
+		173B18531E02357700800300 /* YKCutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCutView.m; sourceTree = "<group>"; };
+		173B18541E02357700800300 /* YKPhotosCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKPhotosCutView.h; sourceTree = "<group>"; };
+		173B18551E02357700800300 /* YKPhotosCutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKPhotosCutView.m; sourceTree = "<group>"; };
+		173B18561E02357700800300 /* YKPhotosCutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKPhotosCutView.xib; sourceTree = "<group>"; };
+		17E180B31E026BF300B47B65 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17E180B41E026BF300B47B65 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17E180B51E026BF400B47B65 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173B18141E0234C800800300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B182D1E0234C900800300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B18381E0234C900800300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173B180E1E0234C800800300 = {
+			isa = PBXGroup;
+			children = (
+				173B18191E0234C800800300 /* YKPhotosCut */,
+				173B18331E0234C900800300 /* YKPhotosCutTests */,
+				173B183E1E0234C900800300 /* YKPhotosCutUITests */,
+				173B18181E0234C800800300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173B18181E0234C800800300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173B18171E0234C800800300 /* YKPhotosCut.app */,
+				173B18301E0234C900800300 /* YKPhotosCutTests.xctest */,
+				173B183B1E0234C900800300 /* YKPhotosCutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173B18191E0234C800800300 /* YKPhotosCut */ = {
+			isa = PBXGroup;
+			children = (
+				173B184D1E02357700800300 /* YKPohotsCut */,
+				173B181D1E0234C800800300 /* AppDelegate.h */,
+				173B181E1E0234C800800300 /* AppDelegate.m */,
+				17E180B31E026BF300B47B65 /* ViewController.h */,
+				17E180B41E026BF300B47B65 /* ViewController.m */,
+				17E180B51E026BF400B47B65 /* ViewController.xib */,
+				173B18231E0234C800800300 /* Main.storyboard */,
+				173B18261E0234C800800300 /* Assets.xcassets */,
+				173B18281E0234C800800300 /* LaunchScreen.storyboard */,
+				173B182B1E0234C800800300 /* Info.plist */,
+				173B181A1E0234C800800300 /* Supporting Files */,
+			);
+			path = YKPhotosCut;
+			sourceTree = "<group>";
+		};
+		173B181A1E0234C800800300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				173B181B1E0234C800800300 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173B18331E0234C900800300 /* YKPhotosCutTests */ = {
+			isa = PBXGroup;
+			children = (
+				173B18341E0234C900800300 /* YKPhotosCutTests.m */,
+				173B18361E0234C900800300 /* Info.plist */,
+			);
+			path = YKPhotosCutTests;
+			sourceTree = "<group>";
+		};
+		173B183E1E0234C900800300 /* YKPhotosCutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				173B183F1E0234C900800300 /* YKPhotosCutUITests.m */,
+				173B18411E0234C900800300 /* Info.plist */,
+			);
+			path = YKPhotosCutUITests;
+			sourceTree = "<group>";
+		};
+		173B184D1E02357700800300 /* YKPohotsCut */ = {
+			isa = PBXGroup;
+			children = (
+				173B184E1E02357700800300 /* Controllers */,
+				173B18511E02357700800300 /* Views */,
+			);
+			path = YKPohotsCut;
+			sourceTree = "<group>";
+		};
+		173B184E1E02357700800300 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				173B184F1E02357700800300 /* YKPhotoCutController.h */,
+				173B18501E02357700800300 /* YKPhotoCutController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		173B18511E02357700800300 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				173B18521E02357700800300 /* YKCutView.h */,
+				173B18531E02357700800300 /* YKCutView.m */,
+				173B18541E02357700800300 /* YKPhotosCutView.h */,
+				173B18551E02357700800300 /* YKPhotosCutView.m */,
+				173B18561E02357700800300 /* YKPhotosCutView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173B18161E0234C800800300 /* YKPhotosCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173B18441E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCut" */;
+			buildPhases = (
+				173B18131E0234C800800300 /* Sources */,
+				173B18141E0234C800800300 /* Frameworks */,
+				173B18151E0234C800800300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKPhotosCut;
+			productName = YKPhotosCut;
+			productReference = 173B18171E0234C800800300 /* YKPhotosCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173B182F1E0234C900800300 /* YKPhotosCutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173B18471E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCutTests" */;
+			buildPhases = (
+				173B182C1E0234C900800300 /* Sources */,
+				173B182D1E0234C900800300 /* Frameworks */,
+				173B182E1E0234C900800300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173B18321E0234C900800300 /* PBXTargetDependency */,
+			);
+			name = YKPhotosCutTests;
+			productName = YKPhotosCutTests;
+			productReference = 173B18301E0234C900800300 /* YKPhotosCutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		173B183A1E0234C900800300 /* YKPhotosCutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173B184A1E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCutUITests" */;
+			buildPhases = (
+				173B18371E0234C900800300 /* Sources */,
+				173B18381E0234C900800300 /* Frameworks */,
+				173B18391E0234C900800300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173B183D1E0234C900800300 /* PBXTargetDependency */,
+			);
+			name = YKPhotosCutUITests;
+			productName = YKPhotosCutUITests;
+			productReference = 173B183B1E0234C900800300 /* YKPhotosCutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173B180F1E0234C800800300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王豫凯";
+				TargetAttributes = {
+					173B18161E0234C800800300 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					173B182F1E0234C900800300 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173B18161E0234C800800300;
+					};
+					173B183A1E0234C900800300 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173B18161E0234C800800300;
+					};
+				};
+			};
+			buildConfigurationList = 173B18121E0234C800800300 /* Build configuration list for PBXProject "YKPhotosCut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173B180E1E0234C800800300;
+			productRefGroup = 173B18181E0234C800800300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173B18161E0234C800800300 /* YKPhotosCut */,
+				173B182F1E0234C900800300 /* YKPhotosCutTests */,
+				173B183A1E0234C900800300 /* YKPhotosCutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173B18151E0234C800800300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E180B71E026BF400B47B65 /* ViewController.xib in Resources */,
+				173B185A1E02357700800300 /* YKPhotosCutView.xib in Resources */,
+				173B182A1E0234C800800300 /* LaunchScreen.storyboard in Resources */,
+				173B18271E0234C800800300 /* Assets.xcassets in Resources */,
+				173B18251E0234C800800300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B182E1E0234C900800300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B18391E0234C900800300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173B18131E0234C800800300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E180B61E026BF400B47B65 /* ViewController.m in Sources */,
+				173B18591E02357700800300 /* YKPhotosCutView.m in Sources */,
+				173B181F1E0234C800800300 /* AppDelegate.m in Sources */,
+				173B181C1E0234C800800300 /* main.m in Sources */,
+				173B18571E02357700800300 /* YKPhotoCutController.m in Sources */,
+				173B18581E02357700800300 /* YKCutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B182C1E0234C900800300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173B18351E0234C900800300 /* YKPhotosCutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173B18371E0234C900800300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173B18401E0234C900800300 /* YKPhotosCutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173B18321E0234C900800300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173B18161E0234C800800300 /* YKPhotosCut */;
+			targetProxy = 173B18311E0234C900800300 /* PBXContainerItemProxy */;
+		};
+		173B183D1E0234C900800300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173B18161E0234C800800300 /* YKPhotosCut */;
+			targetProxy = 173B183C1E0234C900800300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173B18231E0234C800800300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173B18241E0234C800800300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		173B18281E0234C800800300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173B18291E0234C800800300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173B18421E0234C900800300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		173B18431E0234C900800300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173B18451E0234C900800300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKPhotosCut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		173B18461E0234C900800300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKPhotosCut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		173B18481E0234C900800300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKPhotosCutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKPhotosCut.app/YKPhotosCut";
+			};
+			name = Debug;
+		};
+		173B18491E0234C900800300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKPhotosCutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKPhotosCut.app/YKPhotosCut";
+			};
+			name = Release;
+		};
+		173B184B1E0234C900800300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKPhotosCutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKPhotosCut;
+			};
+			name = Debug;
+		};
+		173B184C1E0234C900800300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKPhotosCutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YKPhotosCutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKPhotosCut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173B18121E0234C800800300 /* Build configuration list for PBXProject "YKPhotosCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B18421E0234C900800300 /* Debug */,
+				173B18431E0234C900800300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173B18441E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B18451E0234C900800300 /* Debug */,
+				173B18461E0234C900800300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173B18471E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B18481E0234C900800300 /* Debug */,
+				173B18491E0234C900800300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173B184A1E0234C900800300 /* Build configuration list for PBXNativeTarget "YKPhotosCutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173B184B1E0234C900800300 /* Debug */,
+				173B184C1E0234C900800300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173B180F1E0234C800800300 /* Project object */;
+}
